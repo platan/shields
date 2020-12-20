@@ -9,8 +9,10 @@ export default function DonateBox(): JSX.Element {
   return (
     <Donate>
       Love Shields? Please consider{' '}
-      <a href="https://opencollective.com/shields">donating</a> to sustain our
-      activities
+      <strong>
+        <a href="https://opencollective.com/shields">donating</a>
+      </strong>{' '}
+      to sustain our activities
     </Donate>
   )
 }
