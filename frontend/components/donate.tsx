@@ -8,7 +8,7 @@ const Donate = styled.div`
 export default function DonateBox(): JSX.Element {
   return (
     <Donate>
-      Love Shields? Please consider{' '}
+      Love <strong>Shields</strong>? Please consider{' '}
       <strong>
         <a href="https://opencollective.com/shields">donating</a>
       </strong>{' '}
